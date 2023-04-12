@@ -77,17 +77,18 @@ body {
   justify-content: center;
  }
 
- footer1{
-  text-align: center;
+ footer3{
+  text-align: end;
   font-size: 17px;
   font-weight: 200;
   padding: 50px;
   font-style: normal;
 }
 
+
 p1{
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 
  footer{
