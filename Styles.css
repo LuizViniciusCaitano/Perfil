@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+  font-size: 20px;
+  background: #ffffff;
+  font-family: Roboto, sans-serif;
+ }
+
+ .main{
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 25px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+ }
+
+ #img {
+  border-radius: 5%;
+  width: 300px;
+}
+
+ #text{
+  align-self: center;
+  padding: 50px;
+ }
+
+ h4{
+  color: rgb(214, 34, 34);
+  opacity: 0.8;
+ }
+
+ .social{
+  font-size: 35px;
+  color: rgb(82, 31, 31);
+  padding: 10px;
+  margin-left: 40px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+ }
+
+#insta:hover{
+  color:  #f1f1f1;
+  transition: 0.9s;
+  background: #83346a;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+ }
+
+ #Twitter:hover{
+  background: #0072b1;
+  color: #fff;
+  transition: 0.5s;
+ }
+
+ #Youtube:hover{
+  background: #c72525;
+  color: #fff;
+  transition: 0.5s;
+ }
+
+ #steam:hover{
+  color:  #f1f1f1;
+  transition: 0.9s;
+  background-color: #171a21;
+ }
+
+ .description{
+  font-size: 17px;
+  color: #000000;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.836);
+  max-width: 850px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  justify-content: center;
+ }
+
+ footer1{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 200;
+  padding: 50px;
+  font-style: normal;
+}
+
+p1{
+  text-align: center;
+  font-size: 40px;
+}
+
+ footer{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 200;
+  padding: 50px;
+  font-style: oblique;
+}
+
+#lucas{
+  font-weight: bold;
+}
+
+#lucas:hover{
+  color: crimson;
+  opacity: 0.8;
+  transition: 0.5s;
+}
