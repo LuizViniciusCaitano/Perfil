@@ -2,7 +2,7 @@
 
 body {
   font-size: 20px;
-  background: #ffffff;
+  background: #363636;
   font-family: Roboto, sans-serif;
  }
 
@@ -16,23 +16,24 @@ body {
  }
 
  #img {
-  border-radius: 5%;
-  width: 300px;
+  border-radius: 30%;
+  width: 500px;
 }
 
  #text{
   align-self: center;
   padding: 50px;
+  color: #f1f1f1;
  }
 
  h4{
-  color: rgb(214, 34, 34);
+  color: rgb(252, 132, 132);
   opacity: 0.8;
  }
 
  .social{
   font-size: 35px;
-  color: rgb(82, 31, 31);
+  color: rgb(255, 255, 255);
   padding: 10px;
   margin-left: 40px;
   height: 50px;
@@ -61,34 +62,48 @@ body {
  }
 
  #steam:hover{
-  color:  #f1f1f1;
+  color:  #ffffff;
   transition: 0.9s;
   background-color: #171a21;
  }
 
  .description{
   font-size: 17px;
-  color: #000000;
+  color: #ffffff;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.836);
   max-width: 850px;
   padding: 10px;
-  background-color: #f1f1f1;
+  background-color: #363637;
   margin-top: 20px;
   justify-content: center;
  }
+ 
 
  footer3{
+  position: absolute;
   text-align: end;
   font-size: 17px;
   font-weight: 200;
   padding: 50px;
   font-style: normal;
+  color: #fff;
 }
 
 
-p1{
+p{
   text-align: center;
+  font-size: 50px;
+  font-style: italic;
+}
+
+p2{
   font-size: 30px;
+}
+
+p1{
+  text-align: end;
+  font-size: 30px;
+  color: #fff;
 }
 
  footer{
@@ -97,14 +112,28 @@ p1{
   font-weight: 200;
   padding: 50px;
   font-style: oblique;
+  color: antiquewhite;
 }
 
-#lucas{
+
+#luiz{
   font-weight: bold;
 }
 
-#lucas:hover{
+#luiz:hover{
   color: crimson;
   opacity: 0.8;
   transition: 0.5s;
+}
+#aa{
+  padding: 60px;
+  width: 500px;
+  margin-left: 400px;
+  margin-bottom: 100px;
+}
+
+#carreira{
+  width: 500px;
+  margin-left: 500px;
+  margin-bottom: 100px;
 }
